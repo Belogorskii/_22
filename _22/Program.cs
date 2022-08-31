@@ -23,7 +23,7 @@ namespace _22
             {
                 if (array[i] > array[i - 1]) max = i;
             }
-            Console.WriteLine("Минимальное значение массива: " + array[max]);
+            Console.WriteLine("Максимальное значение массива: " + array[max]);
             Console.ReadLine();
         }
         
